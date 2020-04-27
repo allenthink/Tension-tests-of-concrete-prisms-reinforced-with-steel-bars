@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.18.0404.1406                               -->
+<workbook original-version='10.5' source-build='10.5.3 (10500.18.0404.1406)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Crack widths (datasets)' inline='true' name='federated.04zavp305efteb15698aq0rrc53r' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='datasets' name='excel-direct.1ueweu70txxmox115c4tu0dicyp0'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Administrator/Desktop/钢筋混泥土应力应变图/datasets.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ueweu70txxmox115c4tu0dicyp0' name='Crack widths' table='[&apos;Crack widths$&apos;]' type='table'>
+          <columns gridOrigin='A1:AA44:no:A1:AA44:4' header='yes' lost='0' outcome='1' processed='664'>
+            <column datatype='string' name='Prism' ordinal='0' />
+            <column datatype='string' name='Loading level' ordinal='1' />
+            <column datatype='string' name='Measurement technique' ordinal='2' />
+            <column datatype='real' name='Crack widths, mm Crack #1 L' ordinal='3' />
+            <column datatype='real' name='Crack widths, mm Crack #1 R' ordinal='4' />
+            <column datatype='real' name='Crack widths, mm Crack #2 L' ordinal='5' />
+            <column datatype='real' name='Crack widths, mm Crack #2 R' ordinal='6' />
+            <column datatype='real' name='Crack widths, mm Crack #3 L' ordinal='7' />
+            <column datatype='real' name='Crack widths, mm Crack #3 R' ordinal='8' />
+            <column datatype='real' name='Crack widths, mm Crack #4 L' ordinal='9' />
+            <column datatype='real' name='Crack widths, mm Crack #4 R' ordinal='10' />
+            <column datatype='real' name='Crack widths, mm Crack #5 L' ordinal='11' />
+            <column datatype='real' name='Crack widths, mm Crack #5 R' ordinal='12' />
+            <column datatype='real' name='Crack widths, mm Crack #6 L' ordinal='13' />
+            <column datatype='real' name='Crack widths, mm Crack #6 R' ordinal='14' />
+            <column datatype='real' name='Crack widths, mm Crack #7 L' ordinal='15' />
+            <column datatype='real' name='Crack widths, mm Crack #7 R' ordinal='16' />
+            <column datatype='real' name='Crack widths, mm Crack #8 L' ordinal='17' />
+            <column datatype='real' name='Crack widths, mm Crack #8 R' ordinal='18' />
+            <column datatype='real' name='Crack widths, mm Crack #9 L' ordinal='19' />
+            <column datatype='real' name='Crack widths, mm Crack #9 R' ordinal='20' />
+            <column datatype='real' name='Crack widths, mm Crack #10 L' ordinal='21' />
+            <column datatype='real' name='Crack widths, mm Crack #10 R' ordinal='22' />
+            <column datatype='real' name='Crack widths, mm Crack #11 L' ordinal='23' />
+            <column datatype='real' name='Crack widths, mm Crack #11 R' ordinal='24' />
+            <column datatype='real' name='Crack widths, mm wm' ordinal='25' />
+            <column datatype='real' name='Crack widths, mm wmax' ordinal='26' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Prism</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Prism]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Prism</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loading level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Loading level]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Loading level</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measurement technique</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Measurement technique]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Measurement technique</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #1 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #1 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #1 L</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #1 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #1 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #1 R</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #2 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #2 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #2 L</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #2 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #2 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #2 R</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #3 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #3 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #3 L</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #3 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #3 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #3 R</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #4 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #4 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #4 L</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #4 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #4 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #4 R</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #5 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #5 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #5 L</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #5 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #5 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #5 R</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #6 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #6 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #6 L</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #6 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #6 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #6 R</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #7 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #7 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #7 L</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #7 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #7 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #7 R</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #8 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #8 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #8 L</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #8 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #8 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #8 R</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #9 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #9 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #9 L</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #9 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #9 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #9 R</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #10 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #10 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #10 L</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #10 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #10 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #10 R</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #11 L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #11 L]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #11 L</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm Crack #11 R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm Crack #11 R]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm Crack #11 R</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm wm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm wm]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm wm</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crack widths, mm wmax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crack widths, mm wmax]</local-name>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias>Crack widths, mm wmax</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Crack widths]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA44:no:A1:AA44:4&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>664</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.142857' measure-ordering='alphabetic' measure-percentage='0.857143' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='平均裂纹宽度'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Microsoft YaHei'>平均裂纹宽度</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crack widths (datasets)' name='federated.04zavp305efteb15698aq0rrc53r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04zavp305efteb15698aq0rrc53r'>
+            <column datatype='real' name='[Crack widths, mm wm]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Loading level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Measurement technique]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Prism]' role='dimension' type='nominal' />
+            <column-instance column='[Loading level]' derivation='None' name='[none:Loading level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Measurement technique]' derivation='None' name='[none:Measurement technique:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Prism]' derivation='None' name='[none:Prism:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Crack widths, mm wm]' derivation='Sum' name='[sum:Crack widths, mm wm:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04zavp305efteb15698aq0rrc53r].[sum:Crack widths, mm wm:qk]</rows>
+        <cols>([federated.04zavp305efteb15698aq0rrc53r].[none:Measurement technique:nk] / ([federated.04zavp305efteb15698aq0rrc53r].[none:Prism:nk] / [federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='最大裂纹宽度'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Microsoft YaHei'>最大裂纹宽度</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crack widths (datasets)' name='federated.04zavp305efteb15698aq0rrc53r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04zavp305efteb15698aq0rrc53r'>
+            <column datatype='real' name='[Crack widths, mm wmax]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Loading level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Measurement technique]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Prism]' role='dimension' type='nominal' />
+            <column-instance column='[Loading level]' derivation='None' name='[none:Loading level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Measurement technique]' derivation='None' name='[none:Measurement technique:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Prism]' derivation='None' name='[none:Prism:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Crack widths, mm wmax]' derivation='Sum' name='[sum:Crack widths, mm wmax:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04zavp305efteb15698aq0rrc53r].[sum:Crack widths, mm wmax:qk]</rows>
+        <cols>([federated.04zavp305efteb15698aq0rrc53r].[none:Measurement technique:nk] / ([federated.04zavp305efteb15698aq0rrc53r].[none:Prism:nk] / [federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]))</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='平均裂纹宽度'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]</field>
+            <field>[federated.04zavp305efteb15698aq0rrc53r].[none:Measurement technique:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='最大裂纹宽度'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.04zavp305efteb15698aq0rrc53r].[none:Loading level:nk]</field>
+            <field>[federated.04zavp305efteb15698aq0rrc53r].[none:Measurement technique:nk]</field>
+            <field>[federated.04zavp305efteb15698aq0rrc53r].[none:Prism:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='平均裂纹宽度' width='192'>
+      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
+      /z+fQCF3+hByowAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='最大裂纹宽度' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
